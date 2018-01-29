@@ -2,7 +2,7 @@
   "name": "express-required-fields",
   "version": "1.0.0",
   "description": "express middleware to set required fiels for incoming requests",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha",
     "semantic-release": "semantic-release",
@@ -29,6 +29,7 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "mocha": "^5.0.0",
+    "node-mocks-http": "^1.6.6",
     "semantic-release": "^12.2.5",
     "travis-deploy-once": "^4.3.3"
   },
