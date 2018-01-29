@@ -1,7 +1,7 @@
 {
   "name": "express-required-fields",
   "version": "1.0.0",
-  "description": "express middleware to set required fiels for incoming requests",
+  "description": "express middleware to set required fields for incoming requests",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
