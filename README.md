@@ -6,6 +6,15 @@
 ## Synopsis
 Express middleware to set required fields for incoming requests. Responds with error message if fields are missing in the request body
 
+
+## Installation
+
+Install the dependency
+```
+npm install express-required-fields --save
+```
+
+
 ## Code Example
 
 Sample usage:
@@ -20,12 +29,6 @@ app.post('/register', required(['email', 'password']), (req, res)=>{
 
 ```
 
-## Installation
-
-Install the dependency
-```
-npm install express-required-fields --save
-```
 
 ## Options
 
@@ -48,12 +51,14 @@ Default options values are:
 * show_required: true
 * show_received: true
 
+
 ## Tests
 
 Mocha and Chai are used for testing. To run the tests:
 ```
 npm test
 ```
+
 
 ## Connect with the author
 
