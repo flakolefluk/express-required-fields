@@ -5,10 +5,6 @@ node_js:
   - 8
   - 7
 
-
-addons:
-  ssh_known_hosts: github.com
-
 script:
   - npm run test
 
@@ -16,4 +12,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - npx travis-deploy-once "npx semantic-release"
+    - npm run travis-deploy-once "npm run semantic-release"
