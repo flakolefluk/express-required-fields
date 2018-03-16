@@ -8,6 +8,9 @@ node_js:
 os:
   - osx
 
+addons:
+  ssh_known_hosts: github.com
+
 script:
   - npm run test
 
