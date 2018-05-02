@@ -1,8 +1,7 @@
 {
   "name": "express-required-fields",
   "version": "1.0.0",
-  "description":
-    "express middleware to set required fields for incoming requests",
+  "description": "express middleware to set required fields for incoming requests",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
@@ -14,7 +13,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/flakolefluk/express-required-fields.git"
   },
-  "keywords": ["express", "middleware", "required"],
+  "keywords": [
+    "express",
+    "middleware",
+    "required"
+  ],
   "author": "Ignacio Falk",
   "license": "MIT",
   "bugs": {
