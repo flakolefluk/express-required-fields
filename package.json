@@ -32,7 +32,7 @@
   "homepage": "https://github.com/flakolefluk/express-required-fields#readme",
   "devDependencies": {
     "@types/chai": "^4.1.7",
-    "@types/express": "^4.16.0",
+    "@types/express": "^4.17.3",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
     "commitizen": "^4.0.3",
