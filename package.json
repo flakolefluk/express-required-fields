@@ -41,7 +41,7 @@
     "node-mocks-http": "^1.7.3",
     "travis-deploy-once": "^5.0.9",
     "ts-node": "^8.4.1",
-    "typedoc": "^0.15.0",
+    "typedoc": "^0.17.0",
     "typescript": "^3.1.6"
   },
   "config": {
